@@ -6,6 +6,7 @@ async function main() {
   so whitelistContract here is a factory for instances of our Whitelist contract.
   */
   
+  
   const whitelistContract = await ethers.getContractFactory("Whitelist");
 
   // here we deploy the contract
