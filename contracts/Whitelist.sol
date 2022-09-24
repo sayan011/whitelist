@@ -26,6 +26,7 @@ contract Whitelist {
         addAddressToWhitelist - This function adds the address of the sender to the
         whitelist
      */
+     
     function addAddressToWhitelist() public {
         // check if the user has already been whitelisted
         require(!whitelistedAddresses[msg.sender], "Sender has already been whitelisted");
